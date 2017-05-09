@@ -8,22 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		6A3126581EC1D71A0085B38C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3126571EC1D71A0085B38C /* AppDelegate.swift */; };
-		6A31265A1EC1D71A0085B38C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3126591EC1D71A0085B38C /* ViewController.swift */; };
 		6A31265D1EC1D71A0085B38C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A31265B1EC1D71A0085B38C /* Main.storyboard */; };
 		6A3126601EC1D71A0085B38C /* CanPush.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A31265E1EC1D71A0085B38C /* CanPush.xcdatamodeld */; };
 		6A3126621EC1D71A0085B38C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A3126611EC1D71A0085B38C /* Assets.xcassets */; };
 		6A3126651EC1D71A0085B38C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A3126631EC1D71A0085B38C /* LaunchScreen.storyboard */; };
+		6A31266D1EC1D8A80085B38C /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A31266C1EC1D8A80085B38C /* GameController.swift */; };
+		6A31266F1EC1D8CB0085B38C /* ViewContollerMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A31266E1EC1D8CB0085B38C /* ViewContollerMenu.swift */; };
+		6A3126711EC1D8E00085B38C /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3126701EC1D8E00085B38C /* mapViewController.swift */; };
+		6A3126731EC1D8FF0085B38C /* Funkkarit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3126721EC1D8FF0085B38C /* Funkkarit.swift */; };
+		6A3126751EC1D9070085B38C /* Stop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3126741EC1D9070085B38C /* Stop.swift */; };
+		6A3126771EC1D92B0085B38C /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3126761EC1D92B0085B38C /* TableViewController.swift */; };
+		6A3126791EC1D9390085B38C /* ViewControllerPref.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A3126781EC1D9390085B38C /* ViewControllerPref.swift */; };
+		6A31267B1EC1D9570085B38C /* HighscoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A31267A1EC1D9570085B38C /* HighscoreViewController.swift */; };
+		6A31267D1EC1D9650085B38C /* DatabaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A31267C1EC1D9650085B38C /* DatabaseController.swift */; };
+		6A31267F1EC1D96E0085B38C /* ViewControllerBus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A31267E1EC1D96E0085B38C /* ViewControllerBus.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6A3126541EC1D7190085B38C /* CanPush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanPush.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A3126571EC1D71A0085B38C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6A3126591EC1D71A0085B38C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6A31265C1EC1D71A0085B38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A31265F1EC1D71A0085B38C /* CanPush.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CanPush.xcdatamodel; sourceTree = "<group>"; };
 		6A3126611EC1D71A0085B38C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A3126641EC1D71A0085B38C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A3126661EC1D71A0085B38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A31266C1EC1D8A80085B38C /* GameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		6A31266E1EC1D8CB0085B38C /* ViewContollerMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewContollerMenu.swift; sourceTree = "<group>"; };
+		6A3126701EC1D8E00085B38C /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		6A3126721EC1D8FF0085B38C /* Funkkarit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Funkkarit.swift; sourceTree = "<group>"; };
+		6A3126741EC1D9070085B38C /* Stop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stop.swift; sourceTree = "<group>"; };
+		6A3126761EC1D92B0085B38C /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		6A3126781EC1D9390085B38C /* ViewControllerPref.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPref.swift; sourceTree = "<group>"; };
+		6A31267A1EC1D9570085B38C /* HighscoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighscoreViewController.swift; sourceTree = "<group>"; };
+		6A31267C1EC1D9650085B38C /* DatabaseController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseController.swift; sourceTree = "<group>"; };
+		6A31267E1EC1D96E0085B38C /* ViewControllerBus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerBus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +75,16 @@
 			isa = PBXGroup;
 			children = (
 				6A3126571EC1D71A0085B38C /* AppDelegate.swift */,
-				6A3126591EC1D71A0085B38C /* ViewController.swift */,
+				6A31266E1EC1D8CB0085B38C /* ViewContollerMenu.swift */,
+				6A31267E1EC1D96E0085B38C /* ViewControllerBus.swift */,
+				6A31266C1EC1D8A80085B38C /* GameController.swift */,
+				6A3126701EC1D8E00085B38C /* mapViewController.swift */,
+				6A3126721EC1D8FF0085B38C /* Funkkarit.swift */,
+				6A3126741EC1D9070085B38C /* Stop.swift */,
+				6A3126761EC1D92B0085B38C /* TableViewController.swift */,
+				6A3126781EC1D9390085B38C /* ViewControllerPref.swift */,
+				6A31267A1EC1D9570085B38C /* HighscoreViewController.swift */,
+				6A31267C1EC1D9650085B38C /* DatabaseController.swift */,
 				6A31265B1EC1D71A0085B38C /* Main.storyboard */,
 				6A3126611EC1D71A0085B38C /* Assets.xcassets */,
 				6A3126631EC1D71A0085B38C /* LaunchScreen.storyboard */,
@@ -140,9 +167,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A31265A1EC1D71A0085B38C /* ViewController.swift in Sources */,
+				6A31266F1EC1D8CB0085B38C /* ViewContollerMenu.swift in Sources */,
+				6A31266D1EC1D8A80085B38C /* GameController.swift in Sources */,
+				6A3126751EC1D9070085B38C /* Stop.swift in Sources */,
+				6A3126731EC1D8FF0085B38C /* Funkkarit.swift in Sources */,
+				6A31267F1EC1D96E0085B38C /* ViewControllerBus.swift in Sources */,
+				6A3126711EC1D8E00085B38C /* mapViewController.swift in Sources */,
 				6A3126601EC1D71A0085B38C /* CanPush.xcdatamodeld in Sources */,
+				6A3126791EC1D9390085B38C /* ViewControllerPref.swift in Sources */,
+				6A31267D1EC1D9650085B38C /* DatabaseController.swift in Sources */,
+				6A3126771EC1D92B0085B38C /* TableViewController.swift in Sources */,
 				6A3126581EC1D71A0085B38C /* AppDelegate.swift in Sources */,
+				6A31267B1EC1D9570085B38C /* HighscoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +301,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T87JPP76N3;
 				INFOPLIST_FILE = CanPush/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MSM.CanPush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -278,6 +315,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = T87JPP76N3;
 				INFOPLIST_FILE = CanPush/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MSM.CanPush;
 				PRODUCT_NAME = "$(TARGET_NAME)";
